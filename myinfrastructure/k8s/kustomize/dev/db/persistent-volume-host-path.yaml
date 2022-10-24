@@ -1,0 +1,9 @@
+# k8s/dev/db/persistent-volume-host-path.yaml
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: vehicle-quotes-postgres-data-persisent-volume
+spec:
+  hostPath:
+    path: "/home/blessing/projects/vehicle-quotes-postgres-data-dev"
+    path: "/home/ubuntu/projects/vehicle-quotes-postgres-data-dev"
