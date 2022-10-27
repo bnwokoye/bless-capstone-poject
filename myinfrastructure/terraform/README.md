@@ -4,6 +4,7 @@ Usage:
 
   1.Edit the credentials.tf file and add the AWS credentials
 
+
   provider "aws" {
     region = "us-east-1"
     access_key = ""   <== fill this
