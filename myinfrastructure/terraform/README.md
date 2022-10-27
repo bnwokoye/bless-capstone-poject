@@ -5,12 +5,12 @@ Usage:
   1.Edit the credentials.tf file and add the AWS credentials
 
 
-  provider "aws" {
-    region = "us-east-1"
-    access_key = ""   <== fill this
-    secret_key = ""   <== fill this
-    # only needed for restricted accounts
-    token = ""        <== optional, fill this only if you have a restricted account
+  provider "aws" { 
+    region = "us-east-1" 
+    access_key = ""   <== fill this 
+    secret_key = ""   <== fill this 
+    # only needed for restricted accounts 
+    token = ""        <== optional, fill this only if you have a restricted account 
   }
 
   2.Create SSH key if you don't have one
